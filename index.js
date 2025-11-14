@@ -13,3 +13,10 @@ console.log(isPrime(1));  // false
 console.log(isPrime(2));  // true
 console.log(isPrime(7));  // true
 console.log(isPrime(9));  // false
+function evenOdd(num) {
+  return num % 2 === 0;
+}
+
+// quick checks
+console.log(evenOdd(4)); // true
+console.log(evenOdd(7)); // false
